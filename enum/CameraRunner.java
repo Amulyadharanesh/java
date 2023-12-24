@@ -36,8 +36,11 @@ public class CameraRunner {
         System.out.println("Camera chargingType: " + type3);
         System.out.println("Camera displayType: " + type4);
         System.out.println("Camera model year: " + modelYear);
-        System.out.println("Camera Features: " +features);
+        System.out.println("Camera Features:");
+    for (String feature : features) {
+        System.out.println("----- " + feature);
     }
+	}
 
     public static void main(String[] args) {
         String[] features = { "Resolution", "GPS","Wi-Fi","fourKVideo","TouchScreen"};
