@@ -13,7 +13,7 @@ System.out.println(obj.seasons.values);
 System.out.println(obj.color.values);
 System.out.println(obj.trafficLight.values);
 System.out.println(obj.clothSize.values);
-if(obj.types.values=="light")
+if(obj.types.values=="Strong")
 {
 	System.out.println("Coffee is ESPRESSO");
 }
