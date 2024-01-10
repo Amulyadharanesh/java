@@ -7,11 +7,11 @@ public class Wild extends Animals{
 	
 	public void grow() {
         
-        System.out.println(" is growing);
+        System.out.println("Wild animals are growing);
     }
     public void hunt() {
         
-            System.out.println(name + " is hunting for prey.");
+        System.out.println("Wild animals are hunting");
         
     }
 }
