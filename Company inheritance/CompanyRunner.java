@@ -15,13 +15,14 @@ public class CompanyRunner{
 	it.employeeBonus();
 	
 	IT it1 = new IT("Microsoft",1800,"Bengaluru",false,software,data);
-	it1.financialReport();
+	it1.data.analyzeData();
 	
 	BPO obj=new BPO("Accenture",3000,"Health insurance",454.6754d,accounting,quality);
-	obj.calculateTaxes();
+	obj.accounting.calculateProfit();
 	
 	BPO obj1=new BPO("IBM",4000,"Health insurance",554.6754d,accounting,quality);
 	obj1.processClientRequest();
+	
 	
 	
 	
