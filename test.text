@@ -1,0 +1,167 @@
+1>java is a object oriented programming language 
+object which having a behaviour and properites or fields.
+programming language means a language used communicate with computer.
+The javac is a compiler that reads .byte code and convert
+and compiles them into class by line by line.
+
+2>JDK is a java development kit which used for java programming application or software
+JRE is a java run time environment which is used for run time decision and for tools java 
+wont run without it.
+JVM is a java virutal machine which is used for compile the .byte code into source code.
+JVM is included in both JDK and JRE
+
+3>.java file is a human readable code which are written by us.
+.class files means .java file is converted into .class files to understand computer it
+can use in any softwares.
+
+4> *Eclipse 
+* inteliga
+* my eclipse
+
+5> variables is a container which stores the values of dataTypes
+*Local variables
+*Instance variables
+*Static variables
+*Parameter variables
+class{
+String name;
+int yop;
+static{
+int age;
+}
+String name(xxxx);
+
+main{
+}}
+
+6.object oriented programming 
+Object oriented programming is a computer programming that organizes software design 
+or objects, rather than functions and logic.
+An object can be defined as a attributes and behavior.
+
+7.
+
+8.DataType is the size and different values that can be stored in a variable
+Tpes of dataTypes 
+*Primitive dataTypes:which are build by default
+->int,short,byte,long,double,float,char.
+*Non Primitive dataTypes:which are created by users.
+->Array,String
+class{
+int age=23;
+short shoeSize=5;
+byte tvSize=42;
+float height=5.4f;
+char clothSize='M';
+long phoneNumber=9538287479L;
+double value=5672.27723d;
+String name="amulya";
+char[]={'a','m','u'};
+}
+
+9.Dot operator which is used to access the variables,methods,constructor by using dot.
+class{
+int age;
+this.age=23;
+}
+
+10.Java features:
+*Robust
+*Secure
+*Object oriented programming
+*Multi threading
+*Archetitcural Netural
+*Simple
+
+11.Array is a collection of same dataTypes,variables.
+public Main{
+}
+public static void main (String[]arr){
+int my array[]={1,2,3}
+}
+
+
+
+12.class is a class which means class having class name.
+class is a template used to create objects by using new keyword.
+define object data types and methods.
+create a instance of object.
+object is a real world entity
+object can be defined as attributes or properites and behavior.
+object is created in instance pool
+class{
+public int num;
+System.out.println("the num");
+main{
+public static void main (String[]arr){
+object obj=new object();
+}
+}
+
+13.A keyword is a predefined meaning in java.
+*Enum
+*Abstract	
+*continue
+*switch
+*byte	
+*else	
+*case	
+*catch	
+*extends
+*char	
+*final	
+*void
+*default
+*public
+
+
+14.Constructor is special method and used create a instance of object.
+*No-param constructor:is a constructor with parameters.
+*Default constructor:is a constructor which create by default by jvm
+*Parameterized constructor: is a constructor which containing a num of parameters
+
+15.The main() method is static becoz the JVM may call it without creating an instance of the class
+ since there is no class object is existing when the java runtime starts 
+ we must declare the main() as a static
+ Types of Methods:
+ 
+ *Change in parameters
+ *Order of parameters
+ *Type of parameters
+
+public class Number{
+	Number(){
+	System.out.println("no params");	
+	}
+	
+	
+	Number(int value,float num){
+	System.out.println("types of params");
+	}
+	
+	Number(float num,int value){
+	System.out.println("order of params");
+	}
+}
+
+17.Method Overloading is a compile run time 
+Having a same name but different in parameters
+Method Overriding is a run time polymorphism
+having same name which implements in a sub class by overriding annotation
+By overriding we can change the implementation and the decision take by jvm in a run time
+class parent{
+public int;
+public value();
+SOP("")
+}
+class parent extends child{
+@Overriding
+public value("the");
+SOP("")
+}
+
+16.public class Home{
+int myArray[]={12,3,2,45,6,7,6];
+myArray.len();
+
+
